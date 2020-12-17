@@ -19,7 +19,6 @@ from datetime import datetime
 from matplotlib import rcParams
 
 
-
 c=pd.read_csv('costs.csv')
 print(c.columns)
 df=DataFrame(c.head(500))
@@ -43,6 +42,8 @@ month=df['Date'].dt.month_name()
 print(month)
 year=df['Date'].dt.year
 print(year)
+
+
 
 
 
