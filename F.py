@@ -54,13 +54,21 @@ print(df.head(5))
 Salary_situ=df.groupby(['Month'])[['Sale_rev']]
 print(Salary_situ.sum())
 
-#exploring salary by job 
+#exploring data by sales
 Job_salary=df.groupby(['Product_px'])[['Sale_rev']]
 print(Job_salary.sum())
 
 #Who is best, top paying job 
 best_paid=df.groupby(["Product_px", "Unit_px"]).sum().sort_values(["Sale_rev"],ascending=False)
 print(best_paid.head(5))
+
+#pie charts
+
+product=df
+df = px.data.tips()
+fig = px.pie(product, values='Product_px', names='Month', color_discrete_sequence=px.colors.sequential.Blues)
+plotly.offline.plot(fig, filename='sh')
+
 
 
 

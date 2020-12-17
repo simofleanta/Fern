@@ -55,8 +55,26 @@ print(Job_salary.sum())
 best_paid=sdf.groupby(["Job", "Name"]).sum().sort_values(["Salary"],ascending=False)
 print(best_paid)
 
+#pie charts 
+s=sdf
+df = px.data.tips()
+fig = px.pie(s, values='Salary', names='Job', color_discrete_sequence=px.colors.sequential.Blues)
+plotly.offline.plot(fig, filename='s')
 
+s_month=sdf
+df = px.data.tips()
+fig = px.pie(s_month, values='Salary', names='Month', color_discrete_sequence=px.colors.sequential.Blues)
+#plotly.offline.plot(fig, filename='s')
 
+s=sdf
+df = px.data.tips()
+fig = px.pie(s, values='Salary', names='Job', color_discrete_sequence=px.colors.sequential.Blues)
+#plotly.offline.plot(fig, filename='s')
+
+s_name=sdf
+df = px.data.tips()
+fig = px.pie(s_name, values='Salary', names='Name', color_discrete_sequence=px.colors.sequential.Blues)
+plotly.offline.plot(fig, filename='s')
 
 
 
