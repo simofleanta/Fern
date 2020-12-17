@@ -45,11 +45,23 @@ month=df['Date'].dt.month_name()
 year=df['Date'].dt.year
 
 #subsetting
-
 df['Year']=df['Date'].dt.year
 df['Month']=df['Date'].dt.month_name()
 df['Day']=day=df['Date'].dt.day_name()
 print(df.head(5))
+
+#exploring data by month
+Salary_situ=df.groupby(['Month'])[['Sale_rev']]
+print(Salary_situ.sum())
+
+#exploring salary by job 
+Job_salary=df.groupby(['Product_px'])[['Sale_rev']]
+print(Job_salary.sum())
+
+#Who is best, top paying job 
+best_paid=df.groupby(["Product_px", "Unit_px"]).sum().sort_values(["Sale_rev"],ascending=False)
+print(best_paid.head(5))
+
 
 
 
