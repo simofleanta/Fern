@@ -15,6 +15,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import r2_score
 import plotly.express as px
+from datetime import datetime
+from matplotlib import rcParams
 
 
 
@@ -22,8 +24,27 @@ c=pd.read_csv('costs.csv')
 print(c.columns)
 df=DataFrame(c.head(500))
 print(df.head(500))
+#b=df.dtypes
 
-##
+#parse string t ta datetime  type
 
-###
+df['Date']=pd.to_datetime(df['Date'], infer_datetime_format=True)
+indexeddf=df.set_index(['Date'])
+print(indexeddf.head(5))
+
+#another way
+
+df['Date']=pd.to_datetime(df['Date'], format='%y-%m-%d')
+day=df.loc[2,'Date'].day_name()
+
+x=df['Date'].dt.day_name()
+print(x)
+y=df['Date'].dt.month_name()
+print(y)
+z=df['Date'].dt.year
+print(z)
+
+
+
+
 
