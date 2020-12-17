@@ -25,17 +25,19 @@ df=DataFrame(c.head(500))
 print(df.head(500))
 #b=df.dtypes
 
-#parse string t ta datetime  type
+#parse string to datetime type
 
 df['Date']=pd.to_datetime(df['Date'], infer_datetime_format=True)
 indexeddf=df.set_index(['Date'])
 print(indexeddf.head(5))
 
-#another way
-
+#parsing to format
 df['Date']=pd.to_datetime(df['Date'], format='%y-%m-%d')
+
+#extracting year, month for specific loc
 day=df.loc[2,'Date'].day_name()
 
+#extracting for all 
 day=df['Date'].dt.day_name()
 print(day)
 month=df['Date'].dt.month_name()
@@ -43,6 +45,7 @@ print(month)
 year=df['Date'].dt.year
 print(year)
 
+#open file
 staff=pd.read_csv('employees.csv')
 print(staff.columns)
 sdf=DataFrame(c.head(500))
