@@ -73,6 +73,7 @@ print(sdf.head(5))
 Sales=sdf.groupby(['month'])[['Sale_rev']]
 print(Sales.sum())
 
+#
 
 
 
