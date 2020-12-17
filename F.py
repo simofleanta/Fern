@@ -39,53 +39,17 @@ day=df.loc[2,'Date'].day_name()
 
 #extracting for all 
 day=df['Date'].dt.day_name()
-print(day)
+
 month=df['Date'].dt.month_name()
-print(month)
+
 year=df['Date'].dt.year
-print(year)
 
-#open file
-staff=pd.read_csv('employees.csv')
-print(staff.columns)
-sdf=DataFrame(c.head(500))
-print(sdf.head(500))
-#b=df.dtypes
+#subsetting
 
-sdf['Date']=pd.to_datetime(df['Date'], infer_datetime_format=True)
-indexeddf=sdf.set_index(['Date'])
-print(indexeddf.head(5))
-
-sdf['Date']=pd.to_datetime(sdf['Date'], format='%y-%m-%d')
-day=sdf.loc[2,'Date'].day_name()
-day=sdf['Date'].dt.day_name()
-month=sdf['Date'].dt.month_name()
-year=sdf['Date'].dt.year
-
-#subset
-
-sdf['Year']=sdf['Date'].dt.year
-sdf['month']=sdf['Date'].dt.month_name()
-sdf['Day']=day=sdf['Date'].dt.day_name()
-print(sdf.head(5))
-
-#group sales by
-Sales=sdf.groupby(['month'])[['Sale_rev']]
-print(Sales.sum())
-
-#
-
-
-
-
-
-
-
-
-
-
-
-
+df['Year']=df['Date'].dt.year
+df['Month']=df['Date'].dt.month_name()
+df['Day']=day=df['Date'].dt.day_name()
+print(df.head(5))
 
 
 
