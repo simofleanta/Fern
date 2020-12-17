@@ -58,15 +58,28 @@ print(indexeddf.head(5))
 
 sdf['Date']=pd.to_datetime(sdf['Date'], format='%y-%m-%d')
 day=sdf.loc[2,'Date'].day_name()
-
 day=sdf['Date'].dt.day_name()
-print(day.head(3))
 month=sdf['Date'].dt.month_name()
-print(month.head(3))
 year=sdf['Date'].dt.year
-print(year.head(3))
 
-#subset 
+#subset
+
+sdf['Year']=sdf['Date'].dt.year
+sdf['month']=sdf['Date'].dt.month_name()
+sdf['Day']=day=sdf['Date'].dt.day_name()
+print(sdf.head(5))
+
+#group sales by
+Sales=sdf.groupby(['month'])[['Sale_rev']]
+print(Sales.sum())
+
+
+
+
+
+
+
+
 
 
 
