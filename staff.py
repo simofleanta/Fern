@@ -41,7 +41,7 @@ sdf['Year']=sdf['Date'].dt.year
 sdf['Month']=sdf['Date'].dt.month_name()
 sdf['Day']=day=sdf['Date'].dt.day_name()
 print(sdf.head(50))
-print(sdf.to_csv("staff_paid"))
+print(sdf.to_csv("staff_paid.csv"))
 
 #exploring data by month
 Salary_situ=sdf.groupby(['Month'])[['Salary']]

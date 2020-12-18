@@ -38,6 +38,8 @@ day=odf['Date'].dt.day_name()
 month=odf['Date'].dt.month_name()
 year=odf['Date'].dt.year
 
+print(odf.to_csv("opperational_costs.csv"))
+
 #subset data 
 
 odf['Year']=odf['Date'].dt.year
