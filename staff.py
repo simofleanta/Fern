@@ -70,7 +70,13 @@ fig = px.pie(s_month, values='Salary', names='Month', color_discrete_sequence=px
 s=sdf
 df = px.data.tips()
 fig = px.pie(s, values='Salary', names='Job', color_discrete_sequence=px.colors.sequential.Blues)
-plotly.offline.plot(fig, filename='s')
+#plotly.offline.plot(fig, filename='s')
+
+#Are salaries higher in 2019 than in 2018?
+s=sdf
+df = px.data.tips()
+fig = px.pie(s, values='Salary', names='Year', color_discrete_sequence=px.colors.sequential.Blues)
+#plotly.offline.plot(fig, filename='s')
 
 s_name=sdf
 df = px.data.tips()
@@ -84,7 +90,7 @@ job=pd.DataFrame(data=sdf_job)
 salary_bar=job.sort_values(by='Salary',ascending=False,axis=0)
 
 fig = px.bar(salary_bar, x="Salary", y=salary_bar.index, color='Salary',color_continuous_scale='Blues',title="Average Salary per job")
-#plotly.offline.plot(fig, filename='s')
+plotly.offline.plot(fig, filename='s')
 
 
 
