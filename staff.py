@@ -99,4 +99,3 @@ fig = px.bar(salary_bar, x="Salary", y=salary_bar.index, color='Salary',color_co
 
 
 
-
