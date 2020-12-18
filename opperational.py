@@ -48,4 +48,5 @@ odf['Day']=day=odf['Date'].dt.day_name()
 Opperational_view=odf.groupby(['Opp_costs'])[['Costs']]
 print(Opperational_view.mean())
 
-
+Monthly_view=odf.groupby(['Month'])[['Costs']]
+print(Monthly_view.mean())
