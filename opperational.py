@@ -72,13 +72,21 @@ print(Hot_month)
 o=odf
 df = px.data.tips()
 fig = px.pie(o, values='Costs', names='Opp_costs', color_discrete_sequence=px.colors.sequential.Blues)
-plotly.offline.plot(fig, filename='o')
+#plotly.offline.plot(fig, filename='o')
 
 #Hottest months
 o=odf
 df = px.data.tips()
 fig = px.pie(o, values='Costs', names='Month', color_discrete_sequence=px.colors.sequential.Blues)
+#plotly.offline.plot(fig, filename='o')
+
+#hottest year
+
+o=odf
+df = px.data.tips()
+fig = px.pie(o, values='Costs', names='Year', color_discrete_sequence=px.colors.sequential.Blues)
 plotly.offline.plot(fig, filename='o')
+
 
 #Bar chart
 
@@ -87,7 +95,7 @@ cost=pd.DataFrame(data=odf_cost)
 cost_bar=cost.sort_values(by='Costs',ascending=False,axis=0)
 
 fig = px.bar(cost_bar, x="Costs", y=cost_bar.index, color='Costs',color_continuous_scale='Blues',title="Cost per opperations")
-plotly.offline.plot(fig, filename='o')
+#plotly.offline.plot(fig, filename='o')
 
 
 
