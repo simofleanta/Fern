@@ -1,6 +1,6 @@
 Date,Name,Job,Salary,Region
-17-Jun-03,Steven,PR,24000,Seattle
-21-Sep-05,Neena,Project_Officers,17000,Seattle
+17-Jun-03,Steven,Data_Scientist,24000,Seattle
+21-Sep-05,Neena,Software_Engineer,17000,Seattle
 3-Jan-06,Alexander,IT_PROG,9000,Stuttgart
 21-May-07,Bruce,IT_PROG,6000,Stuttgart
 25-Jun-05,David,IT_PROG,4800,Stuttgart
@@ -13,11 +13,11 @@ Date,Name,Job,Salary,Region
 7-Mar-06,Jose Manuel,FI_ACCOUNT,7800,Berlin
 7-Dec-07,Luis,FI_ACCOUNT,6900,Berlin
 7-Dec-02,Den,Economic_Director,11000,Berlin
-18-May-03,Alexander,Software_Engineer,3100,Berlin
-24-Dec-05,Shelli,Software_Engineer,2900,Leipzig
-24-Jul-05,Sigal,Software_Engineer,2800,Leipzig
-15-Nov-06,Guy,Software_Engineer,2600,Leipzig
-10-Aug-07,Karen,Software_Engineer,2500,Sofia
+18-May-03,Alexander,Web_Developer,3100,Berlin
+24-Dec-05,Shelli,Web_Developer,2900,Leipzig
+24-Jul-05,Sigal,Stack_developer,2800,Leipzig
+15-Nov-06,Guy,Stack_developer,2600,Leipzig
+10-Aug-07,Karen,Stack_developer,2500,Sofia
 18-Jul-04,Matthew,Business_Dev,8000,Sofia
 10-Apr-05,Adam,Business_Dev,8200,Sofia
 1-May-03,Payam,Business_Dev,7900,Sofia
