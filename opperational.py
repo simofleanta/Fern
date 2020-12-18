@@ -24,3 +24,28 @@ print(o.columns)
 odf=DataFrame(o.head(50))
 print(odf.head(53))
 #b=df.dtypes
+
+#indexing to datetime
+odf['Date']=pd.to_datetime(odf['Date'], infer_datetime_format=True)
+indexeddf=odf.set_index(['Date'])
+print(indexeddf.head(5))
+
+#parsing to format
+odf['Date']=pd.to_datetime(odf['Date'], format='%y-%m-%d')
+
+#extracting for all 
+day=odf['Date'].dt.day_name()
+month=odf['Date'].dt.month_name()
+year=odf['Date'].dt.year
+
+#subset data 
+
+odf['Year']=odf['Date'].dt.year
+odf['Month']=odf['Date'].dt.month_name()
+odf['Day']=day=odf['Date'].dt.day_name()
+
+#exploring data by month
+Opperational_view=odf.groupby(['Opp_costs'])[['Costs']]
+print(Opperational_view.mean())
+
+
