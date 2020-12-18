@@ -1,14 +1,14 @@
 ,Date,Name,Job,Salary,Region,Year,Month,Day
 0,2019-06-17,Steven,Data_Science,24000,Seattle,2019,June,Monday
 1,2019-09-21,Neena,Python_developer,17000,Seattle,2019,September,Saturday
-2,2019-01-03,Alexander,IT_PROG,9000,Stuttgart,2019,January,Thursday
-3,2019-05-21,Bruce,IT_PROG,6000,Stuttgart,2019,May,Tuesday
+2,2019-01-03,Alexander,Web_Developer,9000,Stuttgart,2019,January,Thursday
+3,2019-05-21,Bruce,Web_Developer,6000,Stuttgart,2019,May,Tuesday
 4,2019-06-25,David,IT_PROG,4800,Stuttgart,2019,June,Tuesday
 5,2019-02-05,Valli,IT_PROG,4800,Stuttgart,2019,February,Tuesday
 6,2019-02-07,Diana,IT_PROG,4200,Stuttgart,2019,February,Thursday
 7,2019-08-17,Nancy,CEO,12008,Berlin,2019,August,Saturday
-8,2019-08-16,Daniel,FI_ACCOUNT,9000,Berlin,2019,August,Friday
-9,2019-09-28,John,FI_ACCOUNT,8200,Berlin,2019,September,Saturday
+8,2019-08-16,Daniel,Web_Developer,9000,Berlin,2019,August,Friday
+9,2019-09-28,John,Web_Developer,8200,Berlin,2019,September,Saturday
 10,2019-09-30,Ismael,FI_ACCOUNT,7700,Berlin,2019,September,Monday
 11,2019-03-07,Jose Manuel,FI_ACCOUNT,7800,Berlin,2019,March,Thursday
 12,2019-12-07,Luis,FI_ACCOUNT,6900,Berlin,2019,December,Saturday
@@ -23,9 +23,9 @@
 21,2019-05-01,Payam,Business_Dev,14000,Berlin,2019,May,Wednesday
 22,2019-10-10,Shanta,Business_Dev,6500,Augsburg,2019,October,Thursday
 23,2019-11-16,Kevin,Business_Dev,5800,Augsburg,2019,November,Saturday
-24,2018-07-16,Julia,Python_developer,3200,Augsburg,2018,July,Monday
-25,2018-09-28,Irene,Python_developer,2700,Augsburg,2018,September,Friday
-26,2018-01-14,James,Python_developer,2400,Augsburg,2018,January,Sunday
+24,2018-07-16,Julia,Data_Science,3200,Augsburg,2018,July,Monday
+25,2018-09-28,Irene,Data_Science,2700,Augsburg,2018,September,Friday
+26,2018-01-14,James,Data_Science,2400,Augsburg,2018,January,Sunday
 27,2018-03-08,Steven,Python_developer,2200,Melbourne,2018,March,Thursday
 28,2018-08-20,Laura,Python_developer,3300,Melbourne,2018,August,Monday
 29,2018-10-30,Mozhe,Python_developer,2800,Melbourne,2018,October,Tuesday
