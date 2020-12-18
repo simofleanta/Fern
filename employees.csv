@@ -1,14 +1,14 @@
 Date,Name,Job,Salary,Region
 17-Jun-19,Steven,Data_Science,24000,Seattle
 21-Sep-19,Neena,Python_developer,17000,Seattle
-3-Jan-19,Alexander,IT_PROG,9000,Stuttgart
-21-May-19,Bruce,IT_PROG,6000,Stuttgart
+3-Jan-19,Alexander,Web_Developer,9000,Stuttgart
+21-May-19,Bruce,Web_Developer,6000,Stuttgart
 25-Jun-19,David,IT_PROG,4800,Stuttgart
 5-Feb-19,Valli,IT_PROG,4800,Stuttgart
 7-Feb-19,Diana,IT_PROG,4200,Stuttgart
 17-Aug-19,Nancy,CEO,12008,Berlin
-16-Aug-19,Daniel,FI_ACCOUNT,9000,Berlin
-28-Sep-19,John,FI_ACCOUNT,8200,Berlin
+16-Aug-19,Daniel,Web_Developer,9000,Berlin
+28-Sep-19,John,Web_Developer,8200,Berlin
 30-Sep-19,Ismael,FI_ACCOUNT,7700,Berlin
 7-Mar-19,Jose Manuel,FI_ACCOUNT,7800,Berlin
 7-Dec-19,Luis,FI_ACCOUNT,6900,Berlin
@@ -23,9 +23,9 @@ Date,Name,Job,Salary,Region
 1-May-19,Payam,Business_Dev,14000,Berlin
 10-Oct-19,Shanta,Business_Dev,6500,Augsburg
 16-Nov-19,Kevin,Business_Dev,5800,Augsburg
-16-Jul-18,Julia,Python_developer,3200,Augsburg
-28-Sep-18,Irene,Python_developer,2700,Augsburg
-14-Jan-18,James,Python_developer,2400,Augsburg
+16-Jul-18,Julia,Data_Science,3200,Augsburg
+28-Sep-18,Irene,Data_Science,2700,Augsburg
+14-Jan-18,James,Data_Science,2400,Augsburg
 8-Mar-18,Steven,Python_developer,2200,Melbourne
 20-Aug-18,Laura,Python_developer,3300,Melbourne
 30-Oct-18,Mozhe,Python_developer,2800,Melbourne
