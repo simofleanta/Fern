@@ -18,12 +18,11 @@ import plotly.express as px
 from datetime import datetime
 from matplotlib import rcParams
 
-
 #open file
 staff=pd.read_csv('employees.csv')
 print(staff.columns)
-sdf=DataFrame(staff.head(3))
-print(sdf.head(3))
+sdf=DataFrame(staff.head(50))
+print(sdf.head(50))
 #b=df.dtypes
 
 sdf['Date']=pd.to_datetime(sdf['Date'], infer_datetime_format=True)
@@ -41,7 +40,7 @@ year=sdf['Date'].dt.year
 sdf['Year']=sdf['Date'].dt.year
 sdf['Month']=sdf['Date'].dt.month_name()
 sdf['Day']=day=sdf['Date'].dt.day_name()
-print(sdf.head(5))
+print(sdf.head(50))
 
 #exploring data by month
 Salary_situ=sdf.groupby(['Month'])[['Salary']]
@@ -56,10 +55,11 @@ best_paid=sdf.groupby(["Job", "Name"]).sum().sort_values(["Salary"],ascending=Fa
 print(best_paid)
 
 #pie charts 
+
 s=sdf
 df = px.data.tips()
 fig = px.pie(s, values='Salary', names='Job', color_discrete_sequence=px.colors.sequential.Blues)
-
+#plotly.offline.plot(fig, filename='s')
 
 s_month=sdf
 df = px.data.tips()
@@ -74,11 +74,16 @@ plotly.offline.plot(fig, filename='s')
 s_name=sdf
 df = px.data.tips()
 fig = px.pie(s_name, values='Salary', names='Name', color_discrete_sequence=px.colors.sequential.Blues)
+#plotly.offline.plot(fig, filename='s')
 
+#Bar chart
 
+sdf_job=sdf.groupby(['Job'])['Salary'].sum()
+job=pd.DataFrame(data=sdf_job)
+salary_bar=job.sort_values(by='Salary',ascending=False,axis=0)
 
-
-
+fig = px.bar(salary_bar, x="Salary", y=salary_bar.index, color='Salary',color_continuous_scale='Blues',title="Average Salary per job")
+#plotly.offline.plot(fig, filename='s')
 
 
 
