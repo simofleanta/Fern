@@ -56,7 +56,11 @@ R&D costs
 
 # Employee costs
 
- 
+<img width="800" alt="Best paid" src="https://user-images.githubusercontent.com/47668423/102690589-be027080-4206-11eb-8264-f9b0e96ad7a5.png">
+
+Figure 1 showing who is best paid among all employees 
+
+People in IT are best paid in the company. 
 
 
 # Sales exploratory data analysis 
