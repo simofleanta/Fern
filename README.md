@@ -24,6 +24,14 @@ Figure 2. Showing opperational costs distribution across months
 
 Costs are higher during winter months, October, December and January  
 
+Hottest Year
+
+|   Year |   Costs |
+|:-------|:--------|
+|   2019 |  183600 |
+|   2018 |  157900 |
+
+
 # Employee costs
 
  
