@@ -73,8 +73,6 @@ December payents
 
 
 
-
-
 ![Jobs per year](https://user-images.githubusercontent.com/47668423/102691147-bba21580-420a-11eb-99bf-9fb5c8bf6f4f.png)
 
 Figure 2. Showing Salary per years.
@@ -83,6 +81,11 @@ It seems that in 2018 the best paid job was Data Scientist and in 2019 Python De
 In 2019 the lowest paid job was Business developer and in 2018 the lowest paid job was Applications developer.
 
 # Sales exploratory data analysis 
+
+
+
+# Situ 2 - Scenario drawing given an investment plan 
+
 
 
 
