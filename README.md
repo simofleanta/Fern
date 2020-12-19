@@ -73,6 +73,8 @@ December payents
 
 
 
+
+
 ![Jobs per year](https://user-images.githubusercontent.com/47668423/102691147-bba21580-420a-11eb-99bf-9fb5c8bf6f4f.png)
 
 Figure 2. Showing Salary per years.
