@@ -66,11 +66,10 @@ December payents
 
 |    | Date                | Name   | Job               |   Salary | Region   |   Year | Month    | Day       |
 |:---|:--------------------|:-------|:------------------|:---------|:---------|:-------|:---------|:----------|
-| 12 | 2019-12-07 00:00:00 | Luis   | FI_ACCOUNT        |     6900 | Berlin   |   2019 | December | Saturday  |
+| 12 | 2019-12-07 00:00:00 | Luis   | Accountant        |     6900 | Berlin   |   2019 | December | Saturday  |
 | 13 | 2019-12-07 00:00:00 | Den    | Economic_Director |    11000 | Berlin   |   2019 | December | Saturday  |
 | 15 | 2019-12-24 00:00:00 | Shelli | Python_developer  |    15000 | Leipzig  |   2019 | December | Tuesday   |
 | 34 | 2018-12-12 00:00:00 | Ki     | Web_Developer     |     2400 | Berlin   |   2018 | December | Wednesday |
-
 
 
 
