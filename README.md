@@ -82,6 +82,23 @@ In 2019 the lowest paid job was Business developer and in 2018 the lowest paid j
 
 # Sales exploratory data analysis 
 
+<img width="931" alt="regression sale" src="https://user-images.githubusercontent.com/47668423/102691473-22283300-420d-11eb-9f0f-0d91ca9a5c60.png">
+
+Figure 1. Showing the relationship between the products prices and sales revenue.
+
+It shows a growth of sales revenue along with an increase of product price.
+
+<img width="931" alt="s_unit_px" src="https://user-images.githubusercontent.com/47668423/102691566-b72b2c00-420d-11eb-8a1c-85971bb7085a.png">
+
+Figure 2. Showing that the number of product units increases and therefore the revenues too. 
+
+![revenue stripplot](https://user-images.githubusercontent.com/47668423/102691683-8c8da300-420e-11eb-94ca-04aada52c347.png)
+
+Figure 3. Showing sales revenue distribution across months in two years.
+
+2019 Was more actove than 2018. Sales revenue are highest in January and February 
+while March is a not so active month. 
+
 
 
 # Situ 2 - Scenario drawing given an investment plan 
