@@ -63,6 +63,8 @@ print(Job_salary.sum())
 best_sales=sale.groupby(["Product_px", "Unit_px"]).sum().sort_values(["Sale_rev"],ascending=False)
 print(best_sales.head(5))
 
+print(best_sales.to_markdown())
+
 df = px.data.tips()
 fig = px.scatter(sale, x="Product_px", y="Sale_rev", trendline="m")
 #plotly.offline.plot(fig, filename='o')

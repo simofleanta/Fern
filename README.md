@@ -101,8 +101,17 @@ while March is a not so active month.
 
 <img width="746" alt="M" src="https://user-images.githubusercontent.com/47668423/102691847-d460fa00-420f-11eb-8193-c358439254d8.png">
 
+| Product_px         |   Sale_rev |   Year |
+|:-------------------|:-----------|:-------|
+| (783.03, 1232.16)  |    2464.32 |   2019 |
+| (1174.44, 1735.04) |    1735.04 |   2019 |
+| (1131.05, 1702.99) |    1702.99 |   2019 |
+| (1163.97, 1681.09) |    1681.09 |   2019 |
 
-# Situ 2 - Scenario drawing given an investment plan 
+
+
+
+
 
 
 
