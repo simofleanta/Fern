@@ -32,6 +32,19 @@ Hottest Year
 |   2018 |  157900 |
 
 
+| Opp_costs | Costs |   Year | Month     | Day     |
+|:----------|:------|:-------|:----------|:--------|
+| Banking   |  2400 |   2019 | February  | Tuesday |
+| Banking   |  2400 |   2019 | December  | Tuesday |
+| Banking   |  2400 |   2018 | September | Friday  |
+| Banking   |  2400 |   2018 | February  | Tuesday |
+| Banking   |  2400 |   2018 | January   | Friday  |
+
+
+
+
+
+
 # Employee costs
 
  

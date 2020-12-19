@@ -102,3 +102,10 @@ cost_bar=cost.sort_values(by='Costs',ascending=False,axis=0)
 fig = px.bar(cost_bar, x="Costs", y=cost_bar.index, color='Costs',color_continuous_scale='Blues',title="Cost per opperations")
 #plotly.offline.plot(fig, filename='o')
 
+#markdown tables on banking 
+
+Banking=odf[odf.Opp_costs=='Banking']
+
+print(Banking.to_markdown())
+
+
