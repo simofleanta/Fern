@@ -78,7 +78,7 @@ fig = px.pie(o, values='Costs', names='Opp_costs', color_discrete_sequence=px.co
 o=odf
 df = px.data.tips()
 fig = px.pie(o, values='Costs', names='Month', color_discrete_sequence=px.colors.sequential.Blues)
-plotly.offline.plot(fig, filename='o')
+#plotly.offline.plot(fig, filename='o')
 
 #hottest year
 
@@ -86,6 +86,11 @@ o=odf
 df = px.data.tips()
 fig = px.pie(o, values='Costs', names='Year', color_discrete_sequence=px.colors.sequential.Blues)
 #plotly.offline.plot(fig, filename='o')
+
+#hottet year markdown
+
+Hot_month=odf.groupby(["Year"]).sum().sort_values(["Costs"],ascending=False)
+print(Hot_month.to_markdown())
 
 
 #Bar chart
