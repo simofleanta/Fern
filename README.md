@@ -8,7 +8,9 @@ Monitor component and system performance
 Reduce O&M costs and complexity
 
 # Situation
-We needed to know more of what is happening with the business costs. 
+We needed to know more of what is happening with the business costs and sales revenues.
+The startup received a 800000 funding given  in installments. The first is 500000 2018 and the rest in 2019
+220000 and 80000. The purpose is to see how the costs are distributed in the startup, after funcding, where the money goes most and who is est paid.
 
 # Opperational costs 
 
@@ -107,6 +109,15 @@ while March is a not so active month.
 | (1174.44, 1735.04) |    1735.04 |   2019 |
 | (1131.05, 1702.99) |    1702.99 |   2019 |
 | (1163.97, 1681.09) |    1681.09 |   2019 |
+
+# Connclusions
+
+The money goes most on Staff Marketing, R&D
+Python Developer and IT jobs are best paid.
+Costs were higher in winter.
+Costs estimate in two years up to 720000, in 2019 remaining with 300000. 
+Sales were best at the beginningg of the year. 
+In 2019 sales are considerable higher than the previous year. So are the costs.
 
 
 
