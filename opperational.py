@@ -72,7 +72,7 @@ print(Hot_month)
 o=odf
 df = px.data.tips()
 fig = px.pie(o, values='Costs', names='Opp_costs', color_discrete_sequence=px.colors.sequential.Blues)
-#plotly.offline.plot(fig, filename='o')
+plotly.offline.plot(fig, filename='o')
 
 #Hottest months
 o=odf
