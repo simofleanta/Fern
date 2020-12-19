@@ -99,7 +99,8 @@ sns.stripplot(x='Salary', y='Job', jitter=0.30, size=7, alpha=0.7, hue='Year', p
 plt.show()
 
 
-
+Hot_year=sdf.groupby(["Year"]).sum().sort_values(["Salary"],ascending=False)
+print(Hot_year.to_markdown())
 
 
 

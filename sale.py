@@ -80,3 +80,7 @@ plotly.offline.plot(fig, filename='sh')
 #striplot
 sns.stripplot(x='Sale_rev', y='Month', jitter=0.50, size=9, alpha=0.7, hue='Year', palette='Blues',marker='*', linewidth=1, edgecolor='white',data=sale)
 plt.show()
+
+Hot_year=sale.groupby(["Year"]).sum().sort_values(["Sale_rev"],ascending=False)
+print(Hot_year.to_markdown())
+
