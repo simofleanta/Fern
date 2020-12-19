@@ -18,16 +18,15 @@ Figure 1. Showing cost distribution
 
 The money is more invested on staff, followed by marketing and then R%D. 
 
-
-
-# Employee costs
-
 <img width="762" alt="hottest month" src="https://user-images.githubusercontent.com/47668423/102689700-809ae480-4200-11eb-8201-7710a177af66.png">
 
 Figure 2. Showing opperational costs distribution across months
 
-Costs are higher during winter months, October, December and January   
+Costs are higher during winter months, October, December and January  
 
+# Employee costs
+
+ 
 
 
 # Sales exploratory data analysis 
