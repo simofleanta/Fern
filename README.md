@@ -99,6 +99,7 @@ Figure 3. Showing sales revenue distribution across months in two years.
 2019 Was more actove than 2018. Sales revenue are highest in January and February 
 while March is a not so active month. 
 
+<img width="746" alt="M" src="https://user-images.githubusercontent.com/47668423/102691847-d460fa00-420f-11eb-8193-c358439254d8.png">
 
 
 # Situ 2 - Scenario drawing given an investment plan 
