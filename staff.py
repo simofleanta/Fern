@@ -70,7 +70,7 @@ fig = px.pie(s_month, values='Salary', names='Month', color_discrete_sequence=px
 s=sdf
 df = px.data.tips()
 fig = px.pie(s, values='Salary', names='Job', color_discrete_sequence=px.colors.sequential.Blues)
-plotly.offline.plot(fig, filename='s')
+#plotly.offline.plot(fig, filename='s')
 
 #Are salaries higher in 2019 than in 2018?
 s=sdf
@@ -94,6 +94,10 @@ fig = px.bar(salary_bar, x="Salary", y=salary_bar.index, color='Salary',color_co
 
 December=sdf[sdf.Month=='December']
 print(December.to_markdown())
+
+sns.stripplot(x='Salary', y='Job', jitter=0.30, size=7, alpha=0.7, hue='Year', palette='Blues',marker='D', linewidth=1, edgecolor='white',data=sdf)
+plt.show()
+
 
 
 
