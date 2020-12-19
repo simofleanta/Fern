@@ -58,8 +58,7 @@ print(Salary_situ.sum())
 Job_salary=sale.groupby(['Product_px'])[['Sale_rev']]
 print(Job_salary.sum())
 
-
-#Who is best, top paying job 
+#best sale rev
 best_sales=sale.groupby(["Product_px", "Unit_px"]).sum().sort_values(["Sale_rev"],ascending=False)
 print(best_sales.head(5))
 
@@ -74,12 +73,10 @@ fig = px.scatter(sale, x="Unit_px", y="Sale_rev", trendline="m")
 #plotly.offline.plot(fig, filename='o')
 
 #pie charts
-
-
 df = px.data.tips()
 fig = px.pie(sale, values='Sale_rev', names='Month', color_discrete_sequence=px.colors.sequential.Blues)
 plotly.offline.plot(fig, filename='sh')
 
-
+#striplot
 sns.stripplot(x='Sale_rev', y='Month', jitter=0.50, size=9, alpha=0.7, hue='Year', palette='Blues',marker='*', linewidth=1, edgecolor='white',data=sale)
 plt.show()
