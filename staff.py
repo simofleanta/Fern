@@ -90,8 +90,10 @@ job=pd.DataFrame(data=sdf_job)
 salary_bar=job.sort_values(by='Salary',ascending=False,axis=0)
 
 fig = px.bar(salary_bar, x="Salary", y=salary_bar.index, color='Salary',color_continuous_scale='Blues',title="Average Salary per job")
-#plotly.offline.plot(fig, filename='s')
+plotly.offline.plot(fig, filename='s')
 
+December=sdf[df.Month=='December']
+print(December.to_markdown())
 
 
 

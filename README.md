@@ -56,7 +56,7 @@ R&D costs
 
 # Employee costs
 
-<img width="800" alt="Best paid" src="https://user-images.githubusercontent.com/47668423/102690589-be027080-4206-11eb-8264-f9b0e96ad7a5.png">
+<img width="937" alt="Salary job" src="https://user-images.githubusercontent.com/47668423/102690744-ceffb180-4207-11eb-973f-c2fc9dfad88c.png">
 
 Figure 1 showing who is best paid among all employees 
 
