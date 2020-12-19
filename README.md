@@ -72,6 +72,7 @@ December payents
 | 34 | 2018-12-12 00:00:00 | Ki     | Web_Developer     |     2400 | Berlin   |   2018 | December | Wednesday |
 
 
+
 ![Jobs per year](https://user-images.githubusercontent.com/47668423/102691147-bba21580-420a-11eb-99bf-9fb5c8bf6f4f.png)
 
 Figure 2. Showing Salary per years.
