@@ -104,8 +104,8 @@ fig = px.bar(cost_bar, x="Costs", y=cost_bar.index, color='Costs',color_continuo
 
 #markdown tables on banking 
 
-Banking=odf[odf.Opp_costs=='Banking']
+R_D=odf[odf.Opp_costs=='R&D']
 
-print(Banking.to_markdown())
+print(R_D.to_markdown())
 
 

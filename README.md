@@ -32,6 +32,8 @@ Hottest Year
 |   2018 |  157900 |
 
 
+Banking costs
+
 | Opp_costs | Costs |   Year | Month     | Day     |
 |:----------|:------|:-------|:----------|:--------|
 | Banking   |  2400 |   2019 | February  | Tuesday |
@@ -40,8 +42,15 @@ Hottest Year
 | Banking   |  2400 |   2018 | February  | Tuesday |
 | Banking   |  2400 |   2018 | January   | Friday  |
 
+R&D costs
 
-
+| Opp_costs | Costs|   Year | Month     | Day     |
+|:----------|:-----|:-------|:----------|:--------|
+| R&D       | 10000|   2019 | February  | Tuesday |
+| R&D       | 10000|   2019 | December  | Tuesday |
+| R&D       | 10000|   2018 | September | Friday  |
+| R&D       | 10000|   2018 | February  | Tuesday |
+| R&D       | 10000|   2018 | January   | Friday  |
 
 
 
