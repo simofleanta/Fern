@@ -103,9 +103,10 @@ fig = px.bar(cost_bar, x="Costs", y=cost_bar.index, color='Costs',color_continuo
 #plotly.offline.plot(fig, filename='o')
 
 #markdown tables on banking 
-
 R_D=odf[odf.Opp_costs=='R&D']
-
 print(R_D.to_markdown())
 
+#cost in December 
+December=odf[odf.Month=='December']
+print(December.to_markdown())
 
