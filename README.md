@@ -4,8 +4,8 @@ Ferntech a startup that enables centralized monitoring and control easier ways t
 
 # Situation
 We needed to know more of what is happening with the business costs and sales revenues.
-The startup received a 800000 funding given  in installments. The first is 500000 2018 and the rest in 2019
-220000 and 80000. The purpose is to see how the costs are distributed in the startup, after funcding, where the money goes most and who is est paid.
+The startup received an 800000 funding given  in installments. The first is 500000 2018 and the rest in 2019
+220000 and 80000. The purpose is to see how the costs are distributed in the startup, after funcding, where the money goes most and who is best paid.
 
 # Operational costs 
 
@@ -13,11 +13,11 @@ The startup received a 800000 funding given  in installments. The first is 50000
 
 Figure 1. Showing cost distribution
 
-The money is more invested on staff, followed by marketing and then R%D. 
+The money is more invested on staff, followed by marketing and then R&D. 
 
 <img width="762" alt="hottest month" src="https://user-images.githubusercontent.com/47668423/102689700-809ae480-4200-11eb-8201-7710a177af66.png">
 
-Figure 2. Showing opperational costs distribution across months
+Figure 2. Showing operational costs distribution across months
 
 Costs are higher during winter months, October, December and January  
 
@@ -59,7 +59,7 @@ Figure 1 showing who is best paid among all employees
 
 People in IT are best paid in the company. 
 
-December payents
+December payments
 
 |    | Date                | Name   | Job               |   Salary | Region   |   Year | Month    | Day       |
 |:---|:--------------------|:-------|:------------------|:---------|:---------|:-------|:---------|:----------|
