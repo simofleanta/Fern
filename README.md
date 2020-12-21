@@ -7,7 +7,7 @@ We needed to know more of what is happening with the business costs and sales re
 The startup received a 800000 funding given  in installments. The first is 500000 2018 and the rest in 2019
 220000 and 80000. The purpose is to see how the costs are distributed in the startup, after funcding, where the money goes most and who is est paid.
 
-# Opperational costs 
+# Operational costs 
 
 <img width="812" alt="follow_money" src="https://user-images.githubusercontent.com/47668423/102689517-061d9500-41ff-11eb-8929-88470c7e9955.png">
 
@@ -105,7 +105,7 @@ while March is a not so active month.
 | (1131.05, 1702.99) |    1702.99 |   2019 |
 | (1163.97, 1681.09) |    1681.09 |   2019 |
 
-# Connclusions
+# Conclusions
 
 The money goes most on Staff Marketing, R&D
 Python Developer and IT jobs are best paid.
